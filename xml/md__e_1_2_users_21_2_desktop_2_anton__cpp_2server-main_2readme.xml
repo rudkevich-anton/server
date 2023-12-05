@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="md__e_1_2_users_21_2_desktop_2_anton__cpp_2server-main_2readme" kind="page">
+    <compoundname>md__e_1_2_users_21_2_desktop_2_anton__cpp_2server-main_2readme</compoundname>
+    <title>readme</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Запуск сервера ./main -f base.txt -p 33333 -e error.txt </para>
+    </detaileddescription>
+    <location file="E:/Users/1/Desktop/Anton_cpp/server-main/readme.md"/>
+  </compounddef>
+</doxygen>

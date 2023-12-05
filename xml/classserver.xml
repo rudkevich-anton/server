@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classserver" kind="class" language="C++" prot="public">
+    <compoundname>server</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classserver_1accc83f0ac9fb96c740cb3df16517e927" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int server::port</definition>
+        <argsstring></argsstring>
+        <name>port</name>
+        <qualifiedname>server::port</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Users/1/Desktop/Anton_cpp/server-main/server.cpp" line="13" column="7" bodyfile="E:/Users/1/Desktop/Anton_cpp/server-main/server.cpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classserver_1a8a9060b3a50e0a383226034e3fc67642" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string server::error</definition>
+        <argsstring></argsstring>
+        <name>error</name>
+        <qualifiedname>server::error</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Users/1/Desktop/Anton_cpp/server-main/server.cpp" line="14" column="15" bodyfile="E:/Users/1/Desktop/Anton_cpp/server-main/server.cpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classserver_1aeceea5d07d0ec5545eda8f18447e0862" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string server::file_error</definition>
+        <argsstring></argsstring>
+        <name>file_error</name>
+        <qualifiedname>server::file_error</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Users/1/Desktop/Anton_cpp/server-main/server.cpp" line="15" column="15" bodyfile="E:/Users/1/Desktop/Anton_cpp/server-main/server.cpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classserver_1a73322100926c795be952a43c7e6ab2db" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string server::file_name</definition>
+        <argsstring></argsstring>
+        <name>file_name</name>
+        <qualifiedname>server::file_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Users/1/Desktop/Anton_cpp/server-main/server.cpp" line="16" column="15" bodyfile="E:/Users/1/Desktop/Anton_cpp/server-main/server.cpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classserver_1a83ef8991f81deb3ab44d6765fa06f74b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>server::server</definition>
+        <argsstring>(int vport, std::string verror, std::string vfile_error, std::string vfile_name)</argsstring>
+        <name>server</name>
+        <qualifiedname>server::server</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>vport</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>verror</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>vfile_error</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>vfile_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Users/1/Desktop/Anton_cpp/server-main/server.cpp" line="17" column="3" bodyfile="E:/Users/1/Desktop/Anton_cpp/server-main/server.cpp" bodystart="17" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classserver_1a2063fce90041594008074fd574a49f97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int server::exchange</definition>
+        <argsstring>()</argsstring>
+        <name>exchange</name>
+        <qualifiedname>server::exchange</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/Users/1/Desktop/Anton_cpp/server-main/server.cpp" line="23" column="7" bodyfile="E:/Users/1/Desktop/Anton_cpp/server-main/server.cpp" bodystart="23" bodyend="146"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>main file Rudkevich Anton Gerasimovich contain class server </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/Users/1/Desktop/Anton_cpp/server-main/server.cpp" line="9" column="1" bodyfile="E:/Users/1/Desktop/Anton_cpp/server-main/server.cpp" bodystart="10" bodyend="147"/>
+    <listofallmembers>
+      <member refid="classserver_1a8a9060b3a50e0a383226034e3fc67642" prot="public" virt="non-virtual"><scope>server</scope><name>error</name></member>
+      <member refid="classserver_1a2063fce90041594008074fd574a49f97" prot="public" virt="non-virtual"><scope>server</scope><name>exchange</name></member>
+      <member refid="classserver_1aeceea5d07d0ec5545eda8f18447e0862" prot="public" virt="non-virtual"><scope>server</scope><name>file_error</name></member>
+      <member refid="classserver_1a73322100926c795be952a43c7e6ab2db" prot="public" virt="non-virtual"><scope>server</scope><name>file_name</name></member>
+      <member refid="classserver_1accc83f0ac9fb96c740cb3df16517e927" prot="public" virt="non-virtual"><scope>server</scope><name>port</name></member>
+      <member refid="classserver_1a83ef8991f81deb3ab44d6765fa06f74b" prot="public" virt="non-virtual"><scope>server</scope><name>server</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
