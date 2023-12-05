@@ -1,0 +1,80 @@
+.TH "C:/Users/kruva/Downloads/server-main/mdfile.h" 3 "RudkevichAnton" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+C:/Users/kruva/Downloads/server-main/mdfile.h
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <netinet/in\&.h>\fP
+.br
+\fC#include <iostream>\fP
+.br
+\fC#include <cassert>\fP
+.br
+\fC#include <arpa/inet\&.h>\fP
+.br
+\fC#include <cstdlib>\fP
+.br
+\fC#include <unistd\&.h>\fP
+.br
+\fC#include <ctime>\fP
+.br
+\fC#include <fstream>\fP
+.br
+\fC#include <sstream>\fP
+.br
+\fC#include <string>\fP
+.br
+\fC#include <cryptopp/cryptlib\&.h>\fP
+.br
+\fC#include <vector>\fP
+.br
+\fC#include <getopt\&.h>\fP
+.br
+\fC#include <cryptopp/hex\&.h>\fP
+.br
+\fC#include <cryptopp/md5\&.h>\fP
+.br
+
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBCRYPTOPP_ENABLE_NAMESPACE_WEAK\fP   1"
+.br
+.RI "Заголовочный файл @detailed Подключение заголовков "
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "std::string \fBMD\fP (std::string sah)"
+.br
+.RI "Обертка для функций хеширования и ошибок "
+.ti -1c
+.RI "void \fBerrors\fP (std::string error, std::string name)"
+.br
+.ti -1c
+.RI "int \fBer\fP (std::string file_name, std::string file_error)"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define CRYPTOPP_ENABLE_NAMESPACE_WEAK   1"
+
+.PP
+Заголовочный файл @detailed Подключение заголовков 
+.SH "Function Documentation"
+.PP 
+.SS "int er (std::string file_name, std::string file_error)"
+
+.SS "void errors (std::string error, std::string name)"
+
+.SS "std::string MD (std::string sah)"
+
+.PP
+Обертка для функций хеширования и ошибок 
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for RudkevichAnton from the source code\&.
