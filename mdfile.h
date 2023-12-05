@@ -1,6 +1,5 @@
 /**
-@brief Заголовочный файл
-@detailed Подключение заголовков
+@brief Header file with libraries
 */
 #include <netinet/in.h>
 #include <iostream>
@@ -19,7 +18,7 @@
 #include <cryptopp/hex.h> // HexEncoder
 #define CRYPTOPP_ENABLE_NAMESPACE_WEAK 1
 using namespace CryptoPP;
-#include <cryptopp/md5.h> // MD%, для другого алгоритма - другой заголовочный файл
+#include <cryptopp/md5.h> // MD5, for another algorithm - another header file
 std::string MD(std::string sah);
 void errors(std::string error, std::string name);
 int er(std::string file_name, std::string file_error);

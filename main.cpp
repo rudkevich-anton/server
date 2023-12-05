@@ -2,10 +2,8 @@
 #include <cfloat>
 #include <iomanip>
 /**
-@brief Главный файл курсовой работы Рудкевич Антона Максимовича
-@detailed main.cpp - Главный файл
-Сервер: вычисляет сумму квадратов и возвращает клиенту
-Есть защита от переполнения типа double
+@brief main file Rudkevich Anton Gerasimovich
+Server avaluate sum of squares. Overflow protection exist.
 */
 
 int main(int argc, char *argv[]) {
@@ -162,7 +160,7 @@ int main(int argc, char *argv[]) {
             if (mfc > DBL_MAX)
               mfc = DBL_MAX;
             if (mfc < DBL_MIN)
-              mfc = DBL_MIN
+              mfc = DBL_MIN;
             send(work_sock, &mfc, sizeof(mfc), 0);
             std::cout << "Отправляем сумму квадратов" << std::endl;
           }
