@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_mdfile_8h" xml:lang="en-US">
+<title>E:/Users/1/Desktop/Anton_cpp/server-main/mdfile.h File Reference</title>
+<indexterm><primary>E:/Users/1/Desktop/Anton_cpp/server-main/mdfile.h</primary></indexterm>
+<programlisting linenumbering="unnumbered">#include &lt;netinet/in.h&gt;<?linebreak?>#include &lt;iostream&gt;<?linebreak?>#include &lt;cassert&gt;<?linebreak?>#include &lt;arpa/inet.h&gt;<?linebreak?>#include &lt;cstdlib&gt;<?linebreak?>#include &lt;unistd.h&gt;<?linebreak?>#include &lt;ctime&gt;<?linebreak?>#include &lt;fstream&gt;<?linebreak?>#include &lt;sstream&gt;<?linebreak?>#include &lt;string&gt;<?linebreak?>#include &lt;cryptopp/cryptlib.h&gt;<?linebreak?>#include &lt;vector&gt;<?linebreak?>#include &lt;getopt.h&gt;<?linebreak?>#include &lt;cryptopp/hex.h&gt;<?linebreak?>#include &lt;cryptopp/md5.h&gt;<?linebreak?></programlisting><simplesect>
+    <title>Macros    </title>
+        <itemizedlist>
+            <listitem><para>#define <link linkend="_mdfile_8h_1a60054cd46e0dc2ed04249519a5291cda">CRYPTOPP_ENABLE_NAMESPACE_WEAK</link>&#160;&#160;&#160;1</para>
+
+<para>Header file with libraries. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>std::string <link linkend="_mdfile_8h_1aca36b4f222e88d8334a40aba414f7e39">MD</link> (std::string sah)</para>
+
+<para>Обертка для функций хеширования и ошибок </para>
+</listitem>
+            <listitem><para>void <link linkend="_mdfile_8h_1a198154bf74cde3b84f5b9aacce83e01f">errors</link> (std::string error, std::string name)</para>
+</listitem>
+            <listitem><para>int <link linkend="_mdfile_8h_1a9748244e5c9ec9ac4ea4ee5c77f29959">er</link> (std::string file_name, std::string file_error)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Macro Definition Documentation</title>
+<anchor xml:id="_mdfile_8h_1a60054cd46e0dc2ed04249519a5291cda"/><section>
+    <title>CRYPTOPP_ENABLE_NAMESPACE_WEAK</title>
+<indexterm><primary>CRYPTOPP_ENABLE_NAMESPACE_WEAK</primary><secondary>mdfile.h</secondary></indexterm>
+<indexterm><primary>mdfile.h</primary><secondary>CRYPTOPP_ENABLE_NAMESPACE_WEAK</secondary></indexterm>
+<para><computeroutput>#define CRYPTOPP_ENABLE_NAMESPACE_WEAK&#160;&#160;&#160;1</computeroutput></para><para>
+
+<para>Header file with libraries. </para>
+</para>
+</section>
+</section>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_mdfile_8h_1a9748244e5c9ec9ac4ea4ee5c77f29959"/><section>
+    <title>er()</title>
+<indexterm><primary>er</primary><secondary>mdfile.h</secondary></indexterm>
+<indexterm><primary>mdfile.h</primary><secondary>er</secondary></indexterm>
+<para><computeroutput>int er (std::string file_name, std::string file_error)</computeroutput></para></section>
+<anchor xml:id="_mdfile_8h_1a198154bf74cde3b84f5b9aacce83e01f"/><section>
+    <title>errors()</title>
+<indexterm><primary>errors</primary><secondary>mdfile.h</secondary></indexterm>
+<indexterm><primary>mdfile.h</primary><secondary>errors</secondary></indexterm>
+<para><computeroutput>void errors (std::string error, std::string name)</computeroutput></para></section>
+<anchor xml:id="_mdfile_8h_1aca36b4f222e88d8334a40aba414f7e39"/><section>
+    <title>MD()</title>
+<indexterm><primary>MD</primary><secondary>mdfile.h</secondary></indexterm>
+<indexterm><primary>mdfile.h</primary><secondary>MD</secondary></indexterm>
+<para><computeroutput>std::string MD (std::string sah)</computeroutput></para><para>
+
+<para>Обертка для функций хеширования и ошибок </para>
+</para>
+</section>
+</section>
+</section>

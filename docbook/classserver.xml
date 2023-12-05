@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classserver" xml:lang="en-US">
+<title>server Class Reference</title>
+<indexterm><primary>server</primary></indexterm>
+<para>
+
+<para>main file Rudkevich Anton Gerasimovich contain class server </para>
+ 
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classserver_1a83ef8991f81deb3ab44d6765fa06f74b">server</link> (int vport, std::string verror, std::string vfile_error, std::string vfile_name)</para>
+</listitem>
+            <listitem><para>int <link linkend="_classserver_1a2063fce90041594008074fd574a49f97">exchange</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_classserver_1accc83f0ac9fb96c740cb3df16517e927">port</link></para>
+</listitem>
+            <listitem><para>std::string <link linkend="_classserver_1a8a9060b3a50e0a383226034e3fc67642">error</link></para>
+</listitem>
+            <listitem><para>std::string <link linkend="_classserver_1aeceea5d07d0ec5545eda8f18447e0862">file_error</link></para>
+</listitem>
+            <listitem><para>std::string <link linkend="_classserver_1a73322100926c795be952a43c7e6ab2db">file_name</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>main file Rudkevich Anton Gerasimovich contain class server </para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classserver_1a83ef8991f81deb3ab44d6765fa06f74b"/><section>
+    <title>server()</title>
+<indexterm><primary>server</primary><secondary>server</secondary></indexterm>
+<indexterm><primary>server</primary><secondary>server</secondary></indexterm>
+<para><computeroutput>server::server (int vport, std::string verror, std::string vfile_error, std::string vfile_name)<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classserver_1a2063fce90041594008074fd574a49f97"/><section>
+    <title>exchange()</title>
+<indexterm><primary>exchange</primary><secondary>server</secondary></indexterm>
+<indexterm><primary>server</primary><secondary>exchange</secondary></indexterm>
+<para><computeroutput>int server::exchange ( )<computeroutput>[inline]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classserver_1a8a9060b3a50e0a383226034e3fc67642"/><section>
+    <title>error</title>
+<indexterm><primary>error</primary><secondary>server</secondary></indexterm>
+<indexterm><primary>server</primary><secondary>error</secondary></indexterm>
+<para><computeroutput>std::string server::error</computeroutput></para></section>
+<anchor xml:id="_classserver_1aeceea5d07d0ec5545eda8f18447e0862"/><section>
+    <title>file_error</title>
+<indexterm><primary>file_error</primary><secondary>server</secondary></indexterm>
+<indexterm><primary>server</primary><secondary>file_error</secondary></indexterm>
+<para><computeroutput>std::string server::file_error</computeroutput></para></section>
+<anchor xml:id="_classserver_1a73322100926c795be952a43c7e6ab2db"/><section>
+    <title>file_name</title>
+<indexterm><primary>file_name</primary><secondary>server</secondary></indexterm>
+<indexterm><primary>server</primary><secondary>file_name</secondary></indexterm>
+<para><computeroutput>std::string server::file_name</computeroutput></para></section>
+<anchor xml:id="_classserver_1accc83f0ac9fb96c740cb3df16517e927"/><section>
+    <title>port</title>
+<indexterm><primary>port</primary><secondary>server</secondary></indexterm>
+<indexterm><primary>server</primary><secondary>port</secondary></indexterm>
+<para><computeroutput>int server::port</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+E:/Users/1/Desktop/Anton_cpp/server-main/<link linkend="_server_8cpp">server.cpp</link></section>
+</section>

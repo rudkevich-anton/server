@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_main_8cpp" xml:lang="en-US">
+<title>E:/Users/1/Desktop/Anton_cpp/server-main/main.cpp File Reference</title>
+<indexterm><primary>E:/Users/1/Desktop/Anton_cpp/server-main/main.cpp</primary></indexterm>
+<programlisting linenumbering="unnumbered">#include &quot;mdfile.h&quot;<?linebreak?>#include &lt;cfloat&gt;<?linebreak?>#include &lt;iomanip&gt;<?linebreak?></programlisting><simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97">main</link> (int argc, char *argv[])</para>
+
+<para>main file Rudkevich Anton Gerasimovich Server avaluate sum of squares. Overflow protection exist. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>main.cpp</secondary></indexterm>
+<indexterm><primary>main.cpp</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>int main (int argc, char * argv[])</computeroutput></para><para>
+
+<para>main file Rudkevich Anton Gerasimovich Server avaluate sum of squares. Overflow protection exist. </para>
+</para>
+</section>
+</section>
+</section>
