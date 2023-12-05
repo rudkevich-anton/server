@@ -1,3 +1,6 @@
+/**
+@brief Обертка для функций хеширования и ошибок
+*/
 #include "mdfile.h"
 std::string MD(std::string sah){
     Weak::MD5 hash;

@@ -1,3 +1,6 @@
+/**
+@brief Тест файлов базы и ошибок
+*/
 #include "mdfile.h"
 void test(){
 	assert(er("base.txt", "error.txt") == 1);

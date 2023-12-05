@@ -1,3 +1,7 @@
+/**
+@brief Заголовочный файл
+@detailed Подключение заголовков
+*/
 #include <netinet/in.h>
 #include <iostream>
 #include <cassert>
