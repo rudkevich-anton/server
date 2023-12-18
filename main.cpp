@@ -1,9 +1,15 @@
 #include "mdfile.h"
 #include <cfloat>
 #include <iomanip>
+/*!
+\file
+\brief Главный файл сервера реализованный в виде функциональном стиле
+
+Данный файл содержит в себе реализацию курсового задания в функциональном стиле
+*/
 /**
-@brief main file Rudkevich Anton Gerasimovich
-Server avaluate sum of squares. Overflow protection exist.
+@brief Рудкевич Антон Герасимович
+Сервер вычисляет сумму квадратов и возвращает клиенту. Существует защита от переполнения. Данный файл реализует задание курсовой работы без использования классов.
 */
 
 int main(int argc, char *argv[]) {

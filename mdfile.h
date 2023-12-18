@@ -1,5 +1,9 @@
-/**
-@brief Header file with libraries
+/*!
+\file
+\brief Заголовочный файл для модульного тестирования
+
+Данный файл содержит в себе определения основных 
+классов, используемых в модульном тестировании
 */
 #include <netinet/in.h>
 #include <iostream>
@@ -22,3 +26,4 @@ using namespace CryptoPP;
 std::string MD(std::string sah);
 void errors(std::string error, std::string name);
 int er(std::string file_name, std::string file_error);
+std::string ermd(std::string sah);

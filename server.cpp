@@ -1,22 +1,44 @@
 #include "mdfile.h"
 #include <cfloat>
 #include <iomanip>
-/**
-@brief main file Rudkevich Anton Gerasimovich
-contain class server
+/** 
+ * @mainpage Рудкевич Антон - курсовая работа
+ * @section Сервер
+ * ./main -f base.txt -p 33333 -e error.txt
+ * @section Тестирование
+ * ./UnitTest
+ * @section Цели
+ * UnitTest - модульное тестирование; 
+ * main - главная программа без классов;
+ * server - сервер включая классы;
+ */
+/*!
+\file
+\brief Главный файл сервера реализованный на классах
+
+Данный файл содержит в себе реализацию курсового задания с использование классов
 */
 
+/**
+ * @brief server class используется для создания сервера
+ */
 class server
 {
-
+/**
+ * \brief Класс server
+ *
+ * \param port - порт по которому сервер слушает соккет
+ * \param file_error - журнал ошибок
+ * \param file_name - файл с данными логинов и паролей
+ */
 public:
   int port;
   std::string error;
   std::string file_error;
   std::string file_name;
-  server(int vport, std::string verror, std::string vfile_error, std::string vfile_name){
+  server(int vport, std::string vfile_error, std::string vfile_name){
     port = vport;
-    error = verror;
+    // error = verror;
     file_error = vfile_error;
     file_name = vfile_name;
   }
@@ -146,6 +168,10 @@ public:
   }
 };
 
+/**
+ * @brief server class used for create server
+ */
+
 int main(int argc, char *argv[]) {
   if(argc == 1){
     std::cout << "Kalculator"  << std::endl;
@@ -159,7 +185,7 @@ int main(int argc, char *argv[]) {
   int port = 33333;
   std::string file_name = "/etc/vcalc.conf";
   std::string file_error = "/var/log/vcalc.log";
-  std::string error;
+  // std::string error;
   while ((opt = getopt(argc, argv, "hf:p:i:e:" ))!=-1 ){
     switch(opt){
       case 'h':
@@ -189,7 +215,7 @@ int main(int argc, char *argv[]) {
     return 1;
   }
 
-  server srv(port, error, file_error, file_name);
+  server srv(port, file_error, file_name);
   srv.exchange();
   
   return 0;
