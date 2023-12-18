@@ -1,0 +1,128 @@
+\hypertarget{mdfile_8h}{}\doxysection{/home/a/\+Desktop/server-\/main/mdfile.h File Reference}
+\label{mdfile_8h}\index{/home/a/Desktop/server-\/main/mdfile.h@{/home/a/Desktop/server-\/main/mdfile.h}}
+
+
+Заголовочный файл для модульного тестирования  
+
+
+{\ttfamily \#include $<$netinet/in.\+h$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$cassert$>$}\newline
+{\ttfamily \#include $<$arpa/inet.\+h$>$}\newline
+{\ttfamily \#include $<$cstdlib$>$}\newline
+{\ttfamily \#include $<$unistd.\+h$>$}\newline
+{\ttfamily \#include $<$ctime$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$cryptopp/cryptlib.\+h$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$getopt.\+h$>$}\newline
+{\ttfamily \#include $<$cryptopp/hex.\+h$>$}\newline
+{\ttfamily \#include $<$cryptopp/md5.\+h$>$}\newline
+Include dependency graph for mdfile.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{mdfile_8h_a60054cd46e0dc2ed04249519a5291cda}{CRYPTOPP\+\_\+\+ENABLE\+\_\+\+NAMESPACE\+\_\+\+WEAK}}~1
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{mdfile_8h_aca36b4f222e88d8334a40aba414f7e39}{MD}} (std\+::string sah)
+\begin{DoxyCompactList}\small\item\em Тестирование md5 хеширования \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{mdfile_8h_a198154bf74cde3b84f5b9aacce83e01f}{errors}} (std\+::string error, std\+::string name)
+\begin{DoxyCompactList}\small\item\em write errors to error file \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{mdfile_8h_a9748244e5c9ec9ac4ea4ee5c77f29959}{er}} (std\+::string file\+\_\+name, std\+::string file\+\_\+error)
+\begin{DoxyCompactList}\small\item\em Test is file with login and passwords exist. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{mdfile_8h_a0a06f1468a4759ef8aa579ff01113a97}{ermd}} (std\+::string sah)
+\begin{DoxyCompactList}\small\item\em Test is md5 of sah is correct. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Заголовочный файл для модульного тестирования 
+
+Данный файл содержит в себе определения основных классов, используемых в модульном тестировании 
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{mdfile_8h_a60054cd46e0dc2ed04249519a5291cda}\label{mdfile_8h_a60054cd46e0dc2ed04249519a5291cda}} 
+\index{mdfile.h@{mdfile.h}!CRYPTOPP\_ENABLE\_NAMESPACE\_WEAK@{CRYPTOPP\_ENABLE\_NAMESPACE\_WEAK}}
+\index{CRYPTOPP\_ENABLE\_NAMESPACE\_WEAK@{CRYPTOPP\_ENABLE\_NAMESPACE\_WEAK}!mdfile.h@{mdfile.h}}
+\doxysubsubsection{\texorpdfstring{CRYPTOPP\_ENABLE\_NAMESPACE\_WEAK}{CRYPTOPP\_ENABLE\_NAMESPACE\_WEAK}}
+{\footnotesize\ttfamily \#define CRYPTOPP\+\_\+\+ENABLE\+\_\+\+NAMESPACE\+\_\+\+WEAK~1}
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{mdfile_8h_a9748244e5c9ec9ac4ea4ee5c77f29959}\label{mdfile_8h_a9748244e5c9ec9ac4ea4ee5c77f29959}} 
+\index{mdfile.h@{mdfile.h}!er@{er}}
+\index{er@{er}!mdfile.h@{mdfile.h}}
+\doxysubsubsection{\texorpdfstring{er()}{er()}}
+{\footnotesize\ttfamily int er (\begin{DoxyParamCaption}\item[{std\+::string}]{file\+\_\+name,  }\item[{std\+::string}]{file\+\_\+error }\end{DoxyParamCaption})}
+
+
+
+Test is file with login and passwords exist. 
+
+Test file with databases exist 
+\begin{DoxyParams}{Parameters}
+{\em file\+\_\+name} & string with tested database \\
+\hline
+{\em file\+\_\+error} & string name of file error \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{mdfile_8h_a0a06f1468a4759ef8aa579ff01113a97}\label{mdfile_8h_a0a06f1468a4759ef8aa579ff01113a97}} 
+\index{mdfile.h@{mdfile.h}!ermd@{ermd}}
+\index{ermd@{ermd}!mdfile.h@{mdfile.h}}
+\doxysubsubsection{\texorpdfstring{ermd()}{ermd()}}
+{\footnotesize\ttfamily std\+::string ermd (\begin{DoxyParamCaption}\item[{std\+::string}]{sah }\end{DoxyParamCaption})}
+
+
+
+Test is md5 of sah is correct. 
+
+Test md5 of sah is correct 
+\begin{DoxyParams}{Parameters}
+{\em sah} & -\/ string to md5 hash \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+correct md5 string on sah 
+\end{DoxyReturn}
+\mbox{\Hypertarget{mdfile_8h_a198154bf74cde3b84f5b9aacce83e01f}\label{mdfile_8h_a198154bf74cde3b84f5b9aacce83e01f}} 
+\index{mdfile.h@{mdfile.h}!errors@{errors}}
+\index{errors@{errors}!mdfile.h@{mdfile.h}}
+\doxysubsubsection{\texorpdfstring{errors()}{errors()}}
+{\footnotesize\ttfamily void errors (\begin{DoxyParamCaption}\item[{std\+::string}]{error,  }\item[{std\+::string}]{name }\end{DoxyParamCaption})}
+
+
+
+write errors to error file 
+
+Write error to file with name 
+\begin{DoxyParams}{Parameters}
+{\em error} & error string. \\
+\hline
+{\em name} & name file to write error \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{mdfile_8h_aca36b4f222e88d8334a40aba414f7e39}\label{mdfile_8h_aca36b4f222e88d8334a40aba414f7e39}} 
+\index{mdfile.h@{mdfile.h}!MD@{MD}}
+\index{MD@{MD}!mdfile.h@{mdfile.h}}
+\doxysubsubsection{\texorpdfstring{MD()}{MD()}}
+{\footnotesize\ttfamily std\+::string MD (\begin{DoxyParamCaption}\item[{std\+::string}]{sah }\end{DoxyParamCaption})}
+
+
+
+Тестирование md5 хеширования 
+
+содздает md строку из sah строки
+
+реализация md5 хеширования 
+\begin{DoxyParams}{Parameters}
+{\em sah} & строка для хеширования. \\
+\hline
+\end{DoxyParams}
