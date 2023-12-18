@@ -1,0 +1,15 @@
+digraph "/home/a/Desktop/server-main/mdfile.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="/home/a/Desktop/server\l-main/mdfile.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Заголовочный файл для модульного тестирования"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="/home/a/Desktop/server\l-main/main.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html",tooltip="Главный файл сервера реализованный в виде функциональном стиле"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="/home/a/Desktop/server\l-main/mdfile.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mdfile_8cpp.html",tooltip="Тестирование md5 алгоритма и существование файлов"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="/home/a/Desktop/server\l-main/server.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$server_8cpp.html",tooltip="Главный файл сервера реализованный на классах"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="/home/a/Desktop/server\l-main/UnitTest.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_unit_test_8cpp.html",tooltip=" "];
+}
